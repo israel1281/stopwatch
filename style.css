@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+   height: 100%;
+   margin: 0;
+}
+
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 { background-image: url("pexels-anastasia-khvaleva-6415770.jpg");}
+.img2 { background-image: url("pexels-anete-lusina-6353846.jpg");}
+.img3 { background-image: url("pexels-isabella-mendes-1795507.jpg");}
+.img4 { background-image: url("pexels-kris-lucas-2861981.jpg");}
+.img5 { background-image: url("pexels-pixabay-235986.jpg");}
+.img6 { background-image: url("pexels-pixabay-235986.jpg");}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 40px;
+    min-width: 500px;
+    padding: 60px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    z-index: 2;
+    position: fixed;
+}
+
+.timerDisplay {
+    position: relative;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0%;
+    padding: 40px 0;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(34, 37, 39, 0.25);
+}
+
+.buttons {
+    width: 80%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    color: #141313;
+    border: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:hover {
+    background-color: rgb(107, 108, 110);
+}
