@@ -76,7 +76,7 @@ body, html {
     background-color: rgb(107, 108, 110);
 }
 
-@media only Screen and (max-width: 378px) {
+@media only screen and (max-width: 378px) {
   .timerDisplay {
       font-size: 35px;
   }
