@@ -7,10 +7,13 @@ body, html {
 }
 
 .bg-image {
-    height: 50%;
+    height: 60%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.img6 {
+    height: 5%;
 }
 
 .img1 { background-image: url("pexels-anastasia-khvaleva-6415770.jpg");}
@@ -71,4 +74,10 @@ body, html {
 }
 .buttons button:hover {
     background-color: rgb(107, 108, 110);
+}
+
+@media all and (max-width: 378px) {
+  .timerDisplay {
+      font-size: 35px;
+  }
 }
